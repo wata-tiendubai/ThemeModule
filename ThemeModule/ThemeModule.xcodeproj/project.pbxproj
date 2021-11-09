@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		846478EB273A6D40005E461F /* ThemeModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 846478E9273A6D40005E461F /* ThemeModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		846478F3273A6D51005E461F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846478F2273A6D51005E461F /* Assets.xcassets */; };
+		84647918273A6D78005E461F /* SourceSansPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 846478F6273A6D77005E461F /* SourceSansPro-Light.otf */; };
+		84647919273A6D78005E461F /* SourceSansPro-LightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 846478F7273A6D77005E461F /* SourceSansPro-LightIt.otf */; };
+		8464791A273A6D78005E461F /* SourceSansPro-SemiboldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 846478F8273A6D77005E461F /* SourceSansPro-SemiboldIt.otf */; };
+		8464791B273A6D78005E461F /* SFUIText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 846478F9273A6D77005E461F /* SFUIText-Medium.ttf */; };
+		8464791C273A6D78005E461F /* SIL Open Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 846478FA273A6D77005E461F /* SIL Open Font License.txt */; };
+		8464791D273A6D78005E461F /* SourceSansPro-It.otf in Resources */ = {isa = PBXBuildFile; fileRef = 846478FB273A6D77005E461F /* SourceSansPro-It.otf */; };
+		8464791E273A6D78005E461F /* SourceSansPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 846478FC273A6D77005E461F /* SourceSansPro-Bold.otf */; };
+		8464791F273A6D78005E461F /* SFUIText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 846478FD273A6D77005E461F /* SFUIText-Regular.ttf */; };
+		84647920273A6D78005E461F /* SFUIText-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 846478FE273A6D77005E461F /* SFUIText-Heavy.ttf */; };
+		84647921273A6D78005E461F /* SFUIText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 846478FF273A6D77005E461F /* SFUIText-Bold.ttf */; };
+		84647922273A6D78005E461F /* SourceSansPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84647900273A6D77005E461F /* SourceSansPro-Regular.otf */; };
+		84647923273A6D78005E461F /* SourceSansPro-BoldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84647901273A6D77005E461F /* SourceSansPro-BoldIt.otf */; };
+		84647924273A6D78005E461F /* SourceSansPro-BlackIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84647902273A6D77005E461F /* SourceSansPro-BlackIt.otf */; };
+		84647925273A6D78005E461F /* SFUIText-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84647903273A6D77005E461F /* SFUIText-Light.ttf */; };
+		84647926273A6D78005E461F /* SourceSansPro-ExtraLightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84647904273A6D77005E461F /* SourceSansPro-ExtraLightIt.otf */; };
+		84647927273A6D78005E461F /* SFUIText-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84647905273A6D77005E461F /* SFUIText-Semibold.ttf */; };
+		84647928273A6D78005E461F /* Inter-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84647907273A6D77005E461F /* Inter-Bold.otf */; };
+		84647929273A6D78005E461F /* Inter-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84647908273A6D77005E461F /* Inter-Regular.otf */; };
+		8464792A273A6D78005E461F /* Inter-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84647909273A6D77005E461F /* Inter-Medium.otf */; };
+		8464792B273A6D78005E461F /* Inter-Light-BETA.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8464790A273A6D77005E461F /* Inter-Light-BETA.otf */; };
+		8464792C273A6D78005E461F /* Inter-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8464790B273A6D77005E461F /* Inter-SemiBold.otf */; };
+		8464792D273A6D78005E461F /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8464790C273A6D77005E461F /* Inter-ExtraBold.ttf */; };
+		8464792E273A6D78005E461F /* Inter-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8464790D273A6D77005E461F /* Inter-Italic.otf */; };
+		8464792F273A6D78005E461F /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8464790E273A6D77005E461F /* Inter-Black.ttf */; };
+		84647930273A6D78005E461F /* SourceSansPro-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8464790F273A6D77005E461F /* SourceSansPro-ExtraLight.otf */; };
+		84647931273A6D78005E461F /* SourceSansPro-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84647910273A6D78005E461F /* SourceSansPro-Semibold.otf */; };
+		84647932273A6D78005E461F /* SFUIText-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84647911273A6D78005E461F /* SFUIText-LightItalic.ttf */; };
+		84647933273A6D78005E461F /* SFUIText-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84647912273A6D78005E461F /* SFUIText-BoldItalic.ttf */; };
+		84647934273A6D78005E461F /* SFUIText-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84647913273A6D78005E461F /* SFUIText-MediumItalic.ttf */; };
+		84647935273A6D78005E461F /* SFUIText-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84647914273A6D78005E461F /* SFUIText-SemiboldItalic.ttf */; };
+		84647936273A6D78005E461F /* SFUIText-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84647915273A6D78005E461F /* SFUIText-HeavyItalic.ttf */; };
+		84647937273A6D78005E461F /* SourceSansPro-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84647916273A6D78005E461F /* SourceSansPro-Black.otf */; };
+		84647938273A6D78005E461F /* SFUIText-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84647917273A6D78005E461F /* SFUIText-RegularItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		846478E6273A6D40005E461F /* ThemeModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThemeModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		846478E9273A6D40005E461F /* ThemeModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThemeModule.h; sourceTree = "<group>"; };
+		846478EA273A6D40005E461F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846478F2273A6D51005E461F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846478F6273A6D77005E461F /* SourceSansPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Light.otf"; sourceTree = "<group>"; };
+		846478F7273A6D77005E461F /* SourceSansPro-LightIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-LightIt.otf"; sourceTree = "<group>"; };
+		846478F8273A6D77005E461F /* SourceSansPro-SemiboldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-SemiboldIt.otf"; sourceTree = "<group>"; };
+		846478F9273A6D77005E461F /* SFUIText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Medium.ttf"; sourceTree = "<group>"; };
+		846478FA273A6D77005E461F /* SIL Open Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
+		846478FB273A6D77005E461F /* SourceSansPro-It.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-It.otf"; sourceTree = "<group>"; };
+		846478FC273A6D77005E461F /* SourceSansPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.otf"; sourceTree = "<group>"; };
+		846478FD273A6D77005E461F /* SFUIText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Regular.ttf"; sourceTree = "<group>"; };
+		846478FE273A6D77005E461F /* SFUIText-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Heavy.ttf"; sourceTree = "<group>"; };
+		846478FF273A6D77005E461F /* SFUIText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Bold.ttf"; sourceTree = "<group>"; };
+		84647900273A6D77005E461F /* SourceSansPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.otf"; sourceTree = "<group>"; };
+		84647901273A6D77005E461F /* SourceSansPro-BoldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BoldIt.otf"; sourceTree = "<group>"; };
+		84647902273A6D77005E461F /* SourceSansPro-BlackIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BlackIt.otf"; sourceTree = "<group>"; };
+		84647903273A6D77005E461F /* SFUIText-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Light.ttf"; sourceTree = "<group>"; };
+		84647904273A6D77005E461F /* SourceSansPro-ExtraLightIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLightIt.otf"; sourceTree = "<group>"; };
+		84647905273A6D77005E461F /* SFUIText-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Semibold.ttf"; sourceTree = "<group>"; };
+		84647907273A6D77005E461F /* Inter-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.otf"; sourceTree = "<group>"; };
+		84647908273A6D77005E461F /* Inter-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.otf"; sourceTree = "<group>"; };
+		84647909273A6D77005E461F /* Inter-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.otf"; sourceTree = "<group>"; };
+		8464790A273A6D77005E461F /* Inter-Light-BETA.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light-BETA.otf"; sourceTree = "<group>"; };
+		8464790B273A6D77005E461F /* Inter-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.otf"; sourceTree = "<group>"; };
+		8464790C273A6D77005E461F /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		8464790D273A6D77005E461F /* Inter-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Italic.otf"; sourceTree = "<group>"; };
+		8464790E273A6D77005E461F /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		8464790F273A6D77005E461F /* SourceSansPro-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLight.otf"; sourceTree = "<group>"; };
+		84647910273A6D78005E461F /* SourceSansPro-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Semibold.otf"; sourceTree = "<group>"; };
+		84647911273A6D78005E461F /* SFUIText-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-LightItalic.ttf"; sourceTree = "<group>"; };
+		84647912273A6D78005E461F /* SFUIText-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-BoldItalic.ttf"; sourceTree = "<group>"; };
+		84647913273A6D78005E461F /* SFUIText-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-MediumItalic.ttf"; sourceTree = "<group>"; };
+		84647914273A6D78005E461F /* SFUIText-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		84647915273A6D78005E461F /* SFUIText-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		84647916273A6D78005E461F /* SourceSansPro-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Black.otf"; sourceTree = "<group>"; };
+		84647917273A6D78005E461F /* SFUIText-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-RegularItalic.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846478E3273A6D40005E461F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		846478DC273A6D40005E461F = {
+			isa = PBXGroup;
+			children = (
+				846478E8273A6D40005E461F /* ThemeModule */,
+				846478E7273A6D40005E461F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		846478E7273A6D40005E461F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846478E6273A6D40005E461F /* ThemeModule.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846478E8273A6D40005E461F /* ThemeModule */ = {
+			isa = PBXGroup;
+			children = (
+				846478F5273A6D77005E461F /* Fonts */,
+				846478F2273A6D51005E461F /* Assets.xcassets */,
+				846478E9273A6D40005E461F /* ThemeModule.h */,
+				846478EA273A6D40005E461F /* Info.plist */,
+			);
+			path = ThemeModule;
+			sourceTree = "<group>";
+		};
+		846478F5273A6D77005E461F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				846478F6273A6D77005E461F /* SourceSansPro-Light.otf */,
+				846478F7273A6D77005E461F /* SourceSansPro-LightIt.otf */,
+				846478F8273A6D77005E461F /* SourceSansPro-SemiboldIt.otf */,
+				846478F9273A6D77005E461F /* SFUIText-Medium.ttf */,
+				846478FA273A6D77005E461F /* SIL Open Font License.txt */,
+				846478FB273A6D77005E461F /* SourceSansPro-It.otf */,
+				846478FC273A6D77005E461F /* SourceSansPro-Bold.otf */,
+				846478FD273A6D77005E461F /* SFUIText-Regular.ttf */,
+				846478FE273A6D77005E461F /* SFUIText-Heavy.ttf */,
+				846478FF273A6D77005E461F /* SFUIText-Bold.ttf */,
+				84647900273A6D77005E461F /* SourceSansPro-Regular.otf */,
+				84647901273A6D77005E461F /* SourceSansPro-BoldIt.otf */,
+				84647902273A6D77005E461F /* SourceSansPro-BlackIt.otf */,
+				84647903273A6D77005E461F /* SFUIText-Light.ttf */,
+				84647904273A6D77005E461F /* SourceSansPro-ExtraLightIt.otf */,
+				84647905273A6D77005E461F /* SFUIText-Semibold.ttf */,
+				84647906273A6D77005E461F /* Inter */,
+				8464790F273A6D77005E461F /* SourceSansPro-ExtraLight.otf */,
+				84647910273A6D78005E461F /* SourceSansPro-Semibold.otf */,
+				84647911273A6D78005E461F /* SFUIText-LightItalic.ttf */,
+				84647912273A6D78005E461F /* SFUIText-BoldItalic.ttf */,
+				84647913273A6D78005E461F /* SFUIText-MediumItalic.ttf */,
+				84647914273A6D78005E461F /* SFUIText-SemiboldItalic.ttf */,
+				84647915273A6D78005E461F /* SFUIText-HeavyItalic.ttf */,
+				84647916273A6D78005E461F /* SourceSansPro-Black.otf */,
+				84647917273A6D78005E461F /* SFUIText-RegularItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		84647906273A6D77005E461F /* Inter */ = {
+			isa = PBXGroup;
+			children = (
+				84647907273A6D77005E461F /* Inter-Bold.otf */,
+				84647908273A6D77005E461F /* Inter-Regular.otf */,
+				84647909273A6D77005E461F /* Inter-Medium.otf */,
+				8464790A273A6D77005E461F /* Inter-Light-BETA.otf */,
+				8464790B273A6D77005E461F /* Inter-SemiBold.otf */,
+				8464790C273A6D77005E461F /* Inter-ExtraBold.ttf */,
+				8464790D273A6D77005E461F /* Inter-Italic.otf */,
+				8464790E273A6D77005E461F /* Inter-Black.ttf */,
+			);
+			path = Inter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		846478E1273A6D40005E461F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846478EB273A6D40005E461F /* ThemeModule.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		846478E5273A6D40005E461F /* ThemeModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846478EE273A6D40005E461F /* Build configuration list for PBXNativeTarget "ThemeModule" */;
+			buildPhases = (
+				846478E1273A6D40005E461F /* Headers */,
+				846478E2273A6D40005E461F /* Sources */,
+				846478E3273A6D40005E461F /* Frameworks */,
+				846478E4273A6D40005E461F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThemeModule;
+			productName = ThemeModule;
+			productReference = 846478E6273A6D40005E461F /* ThemeModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846478DD273A6D40005E461F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					846478E5273A6D40005E461F = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 846478E0273A6D40005E461F /* Build configuration list for PBXProject "ThemeModule" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846478DC273A6D40005E461F;
+			productRefGroup = 846478E7273A6D40005E461F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846478E5273A6D40005E461F /* ThemeModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846478E4273A6D40005E461F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84647921273A6D78005E461F /* SFUIText-Bold.ttf in Resources */,
+				8464792D273A6D78005E461F /* Inter-ExtraBold.ttf in Resources */,
+				8464791F273A6D78005E461F /* SFUIText-Regular.ttf in Resources */,
+				84647926273A6D78005E461F /* SourceSansPro-ExtraLightIt.otf in Resources */,
+				8464792B273A6D78005E461F /* Inter-Light-BETA.otf in Resources */,
+				8464792A273A6D78005E461F /* Inter-Medium.otf in Resources */,
+				84647927273A6D78005E461F /* SFUIText-Semibold.ttf in Resources */,
+				84647931273A6D78005E461F /* SourceSansPro-Semibold.otf in Resources */,
+				84647924273A6D78005E461F /* SourceSansPro-BlackIt.otf in Resources */,
+				84647922273A6D78005E461F /* SourceSansPro-Regular.otf in Resources */,
+				84647919273A6D78005E461F /* SourceSansPro-LightIt.otf in Resources */,
+				84647918273A6D78005E461F /* SourceSansPro-Light.otf in Resources */,
+				84647933273A6D78005E461F /* SFUIText-BoldItalic.ttf in Resources */,
+				8464791E273A6D78005E461F /* SourceSansPro-Bold.otf in Resources */,
+				8464792E273A6D78005E461F /* Inter-Italic.otf in Resources */,
+				84647934273A6D78005E461F /* SFUIText-MediumItalic.ttf in Resources */,
+				84647936273A6D78005E461F /* SFUIText-HeavyItalic.ttf in Resources */,
+				84647920273A6D78005E461F /* SFUIText-Heavy.ttf in Resources */,
+				8464791D273A6D78005E461F /* SourceSansPro-It.otf in Resources */,
+				8464792C273A6D78005E461F /* Inter-SemiBold.otf in Resources */,
+				846478F3273A6D51005E461F /* Assets.xcassets in Resources */,
+				84647938273A6D78005E461F /* SFUIText-RegularItalic.ttf in Resources */,
+				8464792F273A6D78005E461F /* Inter-Black.ttf in Resources */,
+				84647937273A6D78005E461F /* SourceSansPro-Black.otf in Resources */,
+				84647925273A6D78005E461F /* SFUIText-Light.ttf in Resources */,
+				84647929273A6D78005E461F /* Inter-Regular.otf in Resources */,
+				8464791C273A6D78005E461F /* SIL Open Font License.txt in Resources */,
+				84647923273A6D78005E461F /* SourceSansPro-BoldIt.otf in Resources */,
+				84647932273A6D78005E461F /* SFUIText-LightItalic.ttf in Resources */,
+				8464791A273A6D78005E461F /* SourceSansPro-SemiboldIt.otf in Resources */,
+				84647930273A6D78005E461F /* SourceSansPro-ExtraLight.otf in Resources */,
+				8464791B273A6D78005E461F /* SFUIText-Medium.ttf in Resources */,
+				84647935273A6D78005E461F /* SFUIText-SemiboldItalic.ttf in Resources */,
+				84647928273A6D78005E461F /* Inter-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846478E2273A6D40005E461F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		846478EC273A6D40005E461F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		846478ED273A6D40005E461F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		846478EF273A6D40005E461F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ThemeModule/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wata.ThemeModule;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		846478F0273A6D40005E461F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ThemeModule/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wata.ThemeModule;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846478E0273A6D40005E461F /* Build configuration list for PBXProject "ThemeModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846478EC273A6D40005E461F /* Debug */,
+				846478ED273A6D40005E461F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846478EE273A6D40005E461F /* Build configuration list for PBXNativeTarget "ThemeModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846478EF273A6D40005E461F /* Debug */,
+				846478F0273A6D40005E461F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 846478DD273A6D40005E461F /* Project object */;
+}
